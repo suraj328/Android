@@ -20,7 +20,7 @@ public class RecylerPerson extends AppCompatActivity {
         this.recyclerView = findViewById(R.id.recyclerView);
         for (int i = 1;i<=10;i++){
             String iVal = Integer.toString(i);
-            this.contactItemList.add(new ContactItem("person"+iVal,"address"+iVal,"contact"+iVal,20+i));
+            this.contactItemList.add(new ContactItem("Name"+iVal,"location"+iVal,"phone"+iVal,20+i));
         }
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         PersonAdapter adapter = new PersonAdapter(contactItemList);

@@ -15,9 +15,9 @@ public class RomanNumber extends AppCompatActivity {
         setContentView(R.layout.activity_roman_number);
         GridView gridView;
             String[] num = {
-                    "i","ii","iii","iv","v","vi","vii","viii"
-                    ,"ix","x","xi","xii","xiii","xiv","xv","xi","xvii",
-                    "xviii","xix","xx"
+                    "I","II","III","IV","V","VI","VII","VII"
+                    ,"IX","X","XI","XII","XIII","XIV","XV","XVI","XVII",
+                    "XVIII","XIX","XX"
             };
             gridView = findViewById(R.id.gridView);
             ArrayAdapter<String> adapter = new ArrayAdapter<>(this,R.layout.grid_item,num);

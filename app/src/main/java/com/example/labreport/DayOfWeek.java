@@ -16,13 +16,13 @@ public class DayOfWeek extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_day_of_week);
         String[] days = {
-                "Sunday",
-                "Monday",
-                "Tuesday",
-                "Wednesday",
-                "Thursday",
-                "Friday",
-                "Saturday"
+                "Sun",
+                "Mon",
+                "Tues",
+                "Wed",
+                "Thurs",
+                "Fri",
+                "Sat"
         };
         this.listView = findViewById(R.id.listView1);
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this,R.layout.list_item,days);

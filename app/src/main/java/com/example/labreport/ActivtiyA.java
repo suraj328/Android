@@ -23,18 +23,18 @@ public class ActivtiyA extends AppCompatActivity implements View.OnClickListener
        if (view.getId() == R.id.button1){
            Intent intent = new Intent(ActivtiyA.this,ActivityB.class);
 //           sending  with bundle
-//           Bundle bundle = new Bundle();
-//           bundle.putString("name","suraj");
-//           bundle.putInt("age",23);
-//           intent.putExtras(bundle);
-//           startActivity(intent);
+           Bundle bundle = new Bundle();
+           bundle.putString("name","Reena");
+           bundle.putInt("age",14);
+           intent.putExtras(bundle);
+           startActivity(intent);
 
 //           sending with modal class
-           ArrayList<Student> studentList = new ArrayList<>();
-           studentList.add(new Student("Suraj","Bca"));
-           studentList.add(new Student("Alan","Management"));
-           intent.putExtra("studentData",studentList);
-           startActivity(intent);
+//           ArrayList<Student> studentList = new ArrayList<>();
+//           studentList.add(new Student("Reena Shrestha","Bca"));
+//           studentList.add(new Student("Salena Gomez","Management"));
+//           intent.putExtra("studentData",studentList);
+//           startActivity(intent);
        }
     }
 }
